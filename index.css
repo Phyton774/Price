@@ -1,0 +1,336 @@
+/* Estilos para el cuerpo y la fuente */
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px; /* Agrega un espacio alrededor del cuerpo para evitar que los elementos se corten en los bordes */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Estilos para el contenido principal */
+/* Estilos para el contenido principal */
+main {
+  display: flex;
+  overflow-x: auto; /* Habilita el desplazamiento horizontal */
+  -webkit-overflow-scrolling: touch; /* Añade desplazamiento fluido en iOS */
+  max-width: 100%; /* Asegura que el contenido no se desborde horizontalmente */
+  box-sizing: border-box; /* Incluye el borde y el relleno en el ancho total del contenedor */
+  padding: 0 10px; /* Agrega un poco de espacio alrededor del contenido */
+}
+
+/* Estilos para los contenedores de productos */
+.container {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+  width: 45%; /* Ancho del contenedor */
+  margin-right: 20px; /* Espacio entre contenedores */
+  flex-shrink: 0; /* Evita que los contenedores se achiquen más de lo debido */
+  box-sizing: border-box; /* Incluye el borde y el relleno en el ancho total del contenedor */
+}
+
+
+/* Estilos para los productos individuales */
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente los elementos */
+  margin-bottom: 10px;
+  border-bottom: 2px solid #000000; /* Línea divisoria entre productos */
+  padding-bottom: 5px; /* Espacio entre productos */
+}
+
+.product > div {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+}
+
+.product > div:not(:last-child) {
+  border-right: 3px solid #000000; /* Línea divisoria entre columnas */
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  font-size: 1.5em; /* Tamaño de fuente más grande */
+  color: #007bff; /* Color azul para el título */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 1px 1px 1px #ccc; /* Sombra del texto */
+}
+
+
+.logo {
+  height: 40px;
+  margin-top: 10px; /* Mueve el elemento 10px hacia arriba */
+  margin-bottom: 30px; /* Mueve el elemento 10px hacia abajo */
+  margin-left: 250px; /* Mueve el elemento 10px hacia la izquierda */
+  margin-right: 10px; /* Mueve el elemento 10px hacia la derecha */
+  }
+
+  .logo1 {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 10px;
+  }
+
+  .logo2 {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 10px;
+  }
+
+  .logo3 {
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 10px;
+  }
+
+  .logo4 {
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 10px;
+  }
+
+  .logo5 {
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 10px;
+  }
+
+  .logo6 {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 10px;
+  }
+
+  .confirm {
+    cursor: pointer;
+  }
+
+  .decrease {
+    margin-left: 29px;
+  }
+  /* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  
+  .container {
+    width: 100%; /* Cambiar el ancho del contenedor para adaptarse a pantallas más pequeñas */
+  }
+
+  .logo {
+    width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+    margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+    margin-left: 90px;
+  }
+
+  .logo1 {
+      width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+      margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+      margin-left: 90px;
+    }
+
+    .logo2 {
+      width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+      margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+      margin-left: 90px;
+    }
+
+    .logo3 {
+      width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+      margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+      margin-left: 90px;
+    }
+
+    .logo4 {
+      width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+      margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+      margin-left: 90px;
+    }
+
+    .logo5 {
+      width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+      margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+      margin-left: 90px;
+    }
+
+    .logo6 {
+      width: 100px; /* Reducir el tamaño del logo para pantallas más pequeñas */
+      margin-right: 5px; /* Reducir el espacio entre la imagen y el texto */
+      margin-left: 90px;
+    }
+
+    .confirm {
+      margin-left: 2px;
+      width: 45px;
+      margin-top: 10px;
+    }
+
+    .increase,
+    .decrease {
+      margin-left: 1px;
+      width: 24px;
+    }
+
+    .quantity-text {
+      margin-left: 1px;
+      width: 30px;
+      margin-right: -0px;
+    }
+}
+
+/* Estilos para el nuevo contenedor */
+.container1 {
+  background-color: rgb(255, 255, 255); /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  margin-top: 20px; /* Margen superior */
+    font-family: "Times New Roman", Times, serif; /* Cambia el tipo de letra a Times New Roman o una fuente similar */
+    color: #000000; /* Cambia el color del texto a azul */
+    font-size: 1.5em; /* Ajusta el tamaño de la letra */
+    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+    text-align: left;
+}
+
+.container1 strong {
+  font-weight: bold; /* Hace que el texto dentro de <strong> sea negrita */
+  color: #ff0000; /* Cambia el color del texto en negrita si es necesario */
+}
+
+
+.btn {
+  font-family: 'Ropa Sans', sans-serif;
+     /* font-family: 'Valorant', sans-serif; */
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border: 1px solid #0E1822;
+  padding: 0.8rem 2.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-color: #0E1822;
+  background-size: 200%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position, border, color;
+  position: relative;
+  z-index: 1;
+ }
+ 
+ .btn:hover {
+  border: 1px solid #FF4655;
+  color: white;
+  background-position: 40%;
+ }
+ 
+ .btn:before {
+  content: "";
+  position: absolute;
+  background-color: #0E1822;
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -1px;
+  left: -1px;
+  transition: background-color 0.15s ease-in-out;
+ }
+ 
+ .btn:hover:before {
+  background-color: white;
+ }
+ 
+ .btn:hover:after {
+  background-color: white;
+ }
+ 
+ .btn:after {
+  content: "";
+  position: absolute;
+  background-color: #FF4655;
+  width: 0.3rem;
+  height: 0.3rem;
+  bottom: -1px;
+  right: -1px;
+  transition: background-color 0.15s ease-in-out;
+ }
+ 
+ .button {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+ }
+ 
+ .button:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid #0E1822;
+  border-bottom: 0px;
+     /* opacity: 0.3; */
+ }
+ 
+ .button:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid #0E1822;
+  border-top: 0px;
+     /* opacity: 0.3; */
+  z-index: 0;
+ }
+ 
+ .shape {
+  fill: #0E1822;
+ }
+ 
+
+ .search-box {
+  background-color: #ffffff;
+  max-width: 190px;
+  height: 40px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 2px solid rgb(255, 145, 0);
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.search-box:focus {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+
+ .highlighted {
+  background-color: yellow;
+  font-weight: bold;
+}
